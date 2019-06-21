@@ -1,0 +1,21 @@
+{
+    "name": "emilecalixte/ipssipoo",
+    "authors": [
+        {
+            "name": "Emile Calixte",
+            "email": "calixte.emile@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ramsey/uuid": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/Application"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.9"
+    }
+}
