@@ -5,5 +5,6 @@ if (!file_exists(__DIR__.'/vendor/autoload.php')) {
 }
 require __DIR__.'/vendor/autoload.php';
 
-echo "Hello world";
+session_start();
 
+new \Application\Controllers\MainController($_SERVER['REQUEST_URI']);

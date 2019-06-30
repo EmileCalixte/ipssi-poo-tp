@@ -8,11 +8,12 @@
     ],
     "require": {
         "php": "^7.2",
-        "ramsey/uuid": "^3.8"
+        "ramsey/uuid": "^3.8",
+        "ext-pdo": "*"
     },
     "autoload": {
         "psr-4": {
-            "Application\\": "src/Application"
+            "Application\\": "src/"
         }
     },
     "require-dev": {

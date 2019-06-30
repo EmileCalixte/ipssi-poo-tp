@@ -16,6 +16,7 @@ services:
       - PHPOOP_DB_USER=demo
       - PHPOOP_DB_PASS=demo
       - PHPOOP_DB_PORT=3306
+
   database:
     image: mysql:5.7
     expose:
